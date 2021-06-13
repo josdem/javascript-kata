@@ -1,4 +1,5 @@
 const { assert } = require("chai")
+const {disemvowel} = require('../disemvowel-trolls.js');
 
 describe("Basic tests", () => {
 
@@ -7,5 +8,5 @@ describe("Basic tests", () => {
       assert.strictEqual(disemvowel("No offense but,\nYour writing is among the worst I've ever read"), "N ffns bt,\nYr wrtng s mng th wrst 'v vr rd")
       assert.strictEqual(disemvowel("What are you, a communist?"), "Wht r y,  cmmnst?")
     })
-    
+
 })
