@@ -6,8 +6,9 @@
     Note: for this kata y isn't considered a vowel.
 */
 
-function disemvowel(str) {
-    return str;
+const disemvowel = (keyword) => {
+    return Array.from(keyword).filter(ch => ch != 'a' && ch != 'e' && ch != 'i' && ch != 'o' && ch != 'u' && ch != 'A'
+        && ch != 'E' && ch != 'I' && ch != 'O' && ch != 'U').join('')
 }
 
 exports.disemvowel = disemvowel;
