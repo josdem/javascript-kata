@@ -4,8 +4,10 @@ However, since someone could look over your shoulder, you don't want that shown 
 Your task is to write a function maskify, which changes all but the last four characters into '#'.
 */
 
+const SUFFIX_LENGTH = 4
+
 const maskify = (keyword) => {
-    return keyword
+    return keyword.length <= SUFFIX_LENGTH ? keyword : Array.from(keyword.substring(0, keyword.length - SUFFIX_LENGTH)).fill('#').join('') + keyword.substring(keyword.length - SUFFIX_LENGTH)
 }
 
 exports.maskify = maskify
