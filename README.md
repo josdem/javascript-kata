@@ -9,6 +9,16 @@ This project contains some fun [JavaScript](https://developer.mozilla.org/en-US/
 npm test
 ```
 
+#### To run a specific test
+
+```bash
+npm test -- ${path-to-test-file}
+```
+
+Where:
+
+* `${path-to-test-file}` is a JavaScript test file to run
+
 In order to execute previous commands you should have installed:
 
 - [NPM](https://www.npmjs.com/)
