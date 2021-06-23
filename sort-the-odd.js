@@ -1,11 +1,6 @@
 const sort = (array) => {
-    const odds = array.filter(element => element % 2 === 1 || element % 2 === -1).sort((a, b) => a - b)
-
-    for(let i = 0, j = 0; i < array.length ; i++){
-        array[i] = array[i] % 2 === 0 ? array[i] : odds[j++]
-    }
-     
-    return array
+    const odds = array.filter(element => element % 2).sort((a, b) => a - b)
+    return array.map(element => element % 2 ? odds.shift() : element)
 }
 
 exports.sorter = sort
