@@ -1,5 +1,5 @@
 const {assert} = require('chai')
-const {countBits} = require('../bit-counter.js')
+const {countBits} = require('../js/bit-counter.js')
 
 describe('counting bits', () => {
     it('should do basic test', () => {

@@ -1,5 +1,5 @@
 const { assert } = require("chai")
-const { maskify } = require('../maskarator.js');
+const { maskify } = require('../js/maskarator.js');
 
 describe('maskify', () => {
 

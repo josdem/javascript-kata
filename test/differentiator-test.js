@@ -1,5 +1,5 @@
 const {assert} = require('chai')
-const {diff} = require('../differentiator.js')
+const {diff} = require('../js/differentiator.js')
 
 describe('Get difference', () => {
     it('should get differences in arrays', () => {

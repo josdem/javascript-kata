@@ -1,5 +1,5 @@
 const { assert } = require('chai')
-const { sorter } = require('../sort-the-odd.js')
+const { sorter } = require('../js/sort-the-odd.js')
 
 describe('Sorting odd numbers', () => {
     

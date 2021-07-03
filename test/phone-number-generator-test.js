@@ -1,5 +1,5 @@
 const { assert } = require('chai')
-const { generate } = require('../phone-number-generator.js')
+const { generate } = require('../js/phone-number-generator.js')
 
 describe('generate phone numbers', () => {
     it('should format numbers', () => {

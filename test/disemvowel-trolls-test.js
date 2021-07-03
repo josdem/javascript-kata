@@ -1,5 +1,5 @@
 const { assert } = require("chai")
-const { disemvowel } = require('../disemvowel-trolls.js');
+const { disemvowel } = require('../js/disemvowel-trolls.js');
 
 describe("Basic tests", () => {
 
