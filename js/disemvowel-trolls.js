@@ -11,4 +11,4 @@ const disemvowel = (keyword) => {
     return Array.from(keyword).filter(ch => !vowels.includes(ch)).join('')
 }
 
-exports.disemvowel = disemvowel;
+exports.disemvowel = disemvowel
