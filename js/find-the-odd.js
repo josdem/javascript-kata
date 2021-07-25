@@ -4,7 +4,7 @@ There will always be only one integer that appears an odd number of times.
 */
 
 const oddFinder = (array) => {
-    return array.find(n => array.filter(it => it ===  n).length % 2 === 1)
+    return array.find(n => array.filter(it => it ===  n).length % 2)
 }
 
 exports.oddFinder = oddFinder
