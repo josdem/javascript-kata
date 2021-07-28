@@ -6,8 +6,10 @@ messages = ["hi", "2.0", "@#$%", "32.0"]
 result = 32.0
 */
 
-const biggest = () => {
-    return 0.0
+const regex = /-?[0-9]+.?[0-9]+/g
+
+const biggest = (data) => {
+    return Math.max(...data.filter(it => it.match(regex)))
 }
 
 exports.biggest = biggest
