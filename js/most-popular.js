@@ -4,10 +4,11 @@ Write a function that finds most popular number in the array, in this case 34 be
  */
 
 const find = (numbers) => {
-    let item
     let max = 0
+    let item = 0
+
     numbers.forEach(it => {
-        let counter = numbers.filter(number => number == it).length
+        let counter = numbers.filter(number => number === it).length
         if(counter > max){
             item = it
             max = counter
