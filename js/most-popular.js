@@ -4,7 +4,16 @@ Write a function that finds most popular number in the array, in this case 34 be
  */
 
 const find = (numbers) => {
-    return numbers.length
+    let item
+    let max = 0
+    numbers.forEach(it => {
+        let counter = numbers.filter(number => number == it).length
+        if(counter > max){
+            item = it
+            max = counter
+        }
+    })
+    return item
 }
 
 module.exports.find = find
