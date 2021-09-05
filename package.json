@@ -21,6 +21,7 @@
   "homepage": "https://github.com/josdem/javascript-katas#readme",
   "devDependencies": {
     "chai": "^4.3.4",
-    "mocha": "^9.0.3"
+    "mocha": "^9.0.3",
+    "prettier": "2.3.2"
   }
 }
