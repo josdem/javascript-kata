@@ -1,5 +1,6 @@
-JavaScript Katas
-----------------------------
+## JavaScript Katas
+
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
 This project contains some fun [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) katas using [Mocha Testing Framework](https://mochajs.org/).
 
@@ -7,6 +8,12 @@ This project contains some fun [JavaScript](https://developer.mozilla.org/en-US/
 
 ```bash
 npm install
+```
+
+#### To format the project
+
+```bash
+npx prettier --write .
 ```
 
 #### To run tests
@@ -23,7 +30,7 @@ npm test -- test/${test-file}
 
 Where:
 
-* `${test-file}` is a JavaScript test file name to run
+- `${test-file}` is a JavaScript test file name to run
 
 In order to execute previous commands you should have installed:
 
