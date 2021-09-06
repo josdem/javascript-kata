@@ -4,7 +4,7 @@ It should remove all values from list a, which are present in list b keeping the
  */
 
 const diff = (a, b) => {
-  return a.filter(number => !b.includes(number))
+  return a.filter((number) => !b.includes(number))
 }
 
 exports.diff = diff
