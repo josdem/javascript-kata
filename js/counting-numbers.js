@@ -1,5 +1,5 @@
 const counter = (numbers) => {
-    return numbers
+  return numbers
 }
 
 exports.counter = counter
