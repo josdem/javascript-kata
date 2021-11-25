@@ -3,4 +3,11 @@ const countVowels = (string) => {
     return Array.from(string).filter(it => vowels.includes(it)).length
 }
 
-module.exports.countVowels = countVowels
+const countConsonants = (string) => {
+    return string.length
+}
+
+module.exports.counter = {
+    countVowels,
+    countConsonants,
+}
