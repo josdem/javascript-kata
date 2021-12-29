@@ -16,4 +16,4 @@ const find = (numbers) => {
   }, 0)
 }
 
-module.exports.find = find
+exports.find = find
