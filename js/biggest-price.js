@@ -5,10 +5,8 @@ messages = ["hi", "2", "@#$%", "32"]
 result = 32
 */
 
-const regex = /-?[0-9]+.?[0-9]+/g
-
 const biggest = (data) => {
-  return Math.max(...data.filter((it) => it.match(regex)))
+  return data.length
 }
 
 exports.biggest = biggest
