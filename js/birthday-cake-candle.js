@@ -4,7 +4,7 @@ Your task is to create a function that removes all small candles and just keep t
  */
 
 const counter = (candles) => {
-  return candles
+  return candles.filter((it) => it == Math.max(...candles))
 }
 
 module.exports.counter = counter
