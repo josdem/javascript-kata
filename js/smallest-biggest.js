@@ -6,7 +6,7 @@ Then: I will get a collection with [2, 9] values
  */
 
 const find = (numbers) => {
-  return [Math.min(...numbers), Math.max(...numbers)]
+  return numbers
 }
 
 exports.find = find

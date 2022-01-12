@@ -5,7 +5,7 @@ Example: The binary representation of 1234 is 10011010010, so the function shoul
 */
 
 const countBits = (number) => {
-  return Array.from(number.toString(2)).filter((ch) => ch === "1").length
+  return number
 }
 
 exports.countBits = countBits
