@@ -7,10 +7,7 @@
 */
 
 const disemvowel = (keyword) => {
-  let vowels = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"]
-  return Array.from(keyword)
-    .filter((ch) => !vowels.includes(ch))
-    .join("")
+  keyword
 }
 
 exports.disemvowel = disemvowel

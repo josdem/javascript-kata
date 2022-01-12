@@ -5,7 +5,7 @@ Given: [-4, 3, -9, 0, 4, 1] then expected output is: [3, 2, 1]
  */
 
 const counter = (numbers) => {
-  return [numbers.filter((it) => it > 0).length, numbers.filter((it) => it < 0).length, numbers.filter((it) => it == 0).length]
+  return numbers
 }
 
 exports.counter = counter
