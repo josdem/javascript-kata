@@ -13,11 +13,10 @@ const { assert } = require("chai")
 const { compute } = require("../js/shop-calculator")
 
 describe("should get biggest electronic pair spend", () => {
-    
-    it("validates biggest spend", async () => {
-        const amount = 10
-        const usbs = [5, 2, 8]
-        const keyboards = [3, 1]
-        assert.deepEqual(compute(amount, keyboards, usbs), 9)
-    })
+  it("validates biggest spend", async () => {
+    const amount = 10
+    const usbs = [5, 2, 8]
+    const keyboards = [3, 1]
+    assert.deepEqual(compute(amount, keyboards, usbs), 9)
+  })
 })
