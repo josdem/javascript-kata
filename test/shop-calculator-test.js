@@ -18,6 +18,5 @@ describe("should get biggest electronic pair spend", () => {
     const usbs = [5, 2, 8]
     const keywords = [3, 1]
     assert.deepEqual(compute(amount, keywords, usbs), 9)
-
   })
 })
