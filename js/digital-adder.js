@@ -1,5 +1,5 @@
-const adder = (numbers)=> {
-    return numbers
+const adder = (numbers) => {
+  return numbers
 }
 
 exports.adder = adder
