@@ -1,5 +1,5 @@
 const finder = (first, second) => {
-  return first.concat(second)
+  return first.filter((it) => second.includes(it))
 }
 
 exports.finder = finder
