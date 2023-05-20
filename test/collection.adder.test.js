@@ -5,7 +5,7 @@ Then I should get the sum of the elements
 */
 
 const { assert } = require("chai")
-const { sum } = require("../js/collection-adder.js")
+const { sum } = require("../js/collection.adder.js")
 
 describe("should sum a collection", () => {
   it("verify collection sum", () => {
