@@ -6,7 +6,7 @@ result = 32
 */
 
 const { assert } = require("chai")
-const { biggest } = require("../js/biggest-price.js")
+const { biggest } = require("../js/biggest.price.js")
 
 describe("it should select biggest price", () => {
   it("get biggest price", () => {

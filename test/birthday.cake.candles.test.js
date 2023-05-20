@@ -4,7 +4,7 @@ Your task is to create a function that removes all small candles and just keep t
  */
 
 const { assert } = require("chai")
-const { counter } = require("../js/birthday-cake-candle.js")
+const { counter } = require("../js/birthday.cake.candle.js")
 
 describe("Keep biggest candles", () => {
   it("validates biggest candles", () => {
