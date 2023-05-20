@@ -1,3 +1,9 @@
+/*
+Given an integer collection 
+When I call sum function
+Then I should get the sum of the elements
+*/
+
 const { assert } = require("chai")
 const { sum } = require("../js/collection-adder.js")
 
