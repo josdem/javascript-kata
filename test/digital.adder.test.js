@@ -1,7 +1,7 @@
 /*
-Given: A numeric collection
-When: I call add method
-Then: I will get a collection with every element summing its digits
+Given A numeric collection
+When I call add method
+Then I will get a collection with every element summing its digits
  */
 
 const { assert } = require("chai")
