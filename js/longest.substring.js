@@ -1,5 +1,5 @@
 const longest = (data) => {
-  return [... new Set(data)].length
+  return [...new Set(data)].length
 }
 
 exports.longest = longest

@@ -1,5 +1,5 @@
-const vowels = ['a', 'e', 'i', 'o', 'u']
-const consonants  = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n','r', 'p', 'q', 's', 't', 'v', 'w', 'x', 'y', 'z']
+const vowels = ["a", "e", "i", "o", "u"]
+const consonants = ["b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "r", "p", "q", "s", "t", "v", "w", "x", "y", "z"]
 
 const countVowels = (string) => {
   return Array.from(string).filter((letter) => vowels.includes(letter)).length
