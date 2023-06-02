@@ -1,10 +1,5 @@
-/*
-Given an array of integers, find the one that appears an odd number of times.
-There will always be only one integer that appears an odd number of times.
-*/
-
 const oddFinder = (array) => {
-  return array.find((n) => array.filter((it) => it === n).length % 2)
+  return array.length
 }
 
 exports.oddFinder = oddFinder
