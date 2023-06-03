@@ -1,5 +1,3 @@
 const compress = (keyword) => {
-  return keyword
+   return keyword
 }
-
-exports.compress = compress
