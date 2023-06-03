@@ -1,5 +1,5 @@
 const square = (numbers) => {
-  return numbers.map((it) => it * it)
+  return numbers
 }
 
 exports.square = square

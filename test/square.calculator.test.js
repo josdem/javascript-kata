@@ -1,5 +1,11 @@
+/*
+Given: A numeric list
+When: I call square method
+Then: I will get another list with every element squared.
+ */
+
 const { assert } = require("chai")
-const { square } = require("../js/square-calculator")
+const { square } = require("../js/square.calculator")
 
 describe("should squared my list", () => {
   it("square my list", async () => {
