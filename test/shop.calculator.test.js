@@ -10,7 +10,7 @@ Then: I will have 9 as result
  */
 
 const { assert } = require("chai")
-const { compute } = require("../js/shop-calculator")
+const { compute } = require("../js/shop.calculator")
 
 describe("should get biggest electronic pair spend", () => {
   it("validates biggest spend", async () => {
