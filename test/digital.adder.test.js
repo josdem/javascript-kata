@@ -5,7 +5,7 @@ Then I will get a collection with every element summing its digits
  */
 
 const { assert } = require("chai")
-const { adder } = require("../js/digital-adder")
+const { adder } = require("../js/digital.adder")
 
 describe("should sum every element in the collection", () => {
   it("sums every element", () => {
