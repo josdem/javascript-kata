@@ -1,5 +1,5 @@
 const fight = (bullets, dragons) => {
-    return bullets + dragons === 0
+    return bullets / 2 >= dragons
 }
 
 exports.fight = fight
