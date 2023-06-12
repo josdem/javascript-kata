@@ -1,3 +1,3 @@
 const compress = (keyword) => {
-   return keyword
+  return keyword
 }
