@@ -1,5 +1,7 @@
+const regex = /-?[0-9]+.?[0-9]+/g
+
 const biggest = (data) => {
-  return data.length
+  return Math.max(...data.filter((it) => it.match(regex)))
 }
 
 exports.biggest = biggest

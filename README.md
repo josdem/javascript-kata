@@ -1,6 +1,7 @@
 ## JavaScript Katas
 
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+[![GitHub](https://github.com/josdem/javascript-katas/actions/workflows/github-actions.yml/badge.svg)](https://github.com/josdem/javascript-katas/actions)
 
 This project contains some fun [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) katas using [Mocha Testing Framework](https://mochajs.org/).
 

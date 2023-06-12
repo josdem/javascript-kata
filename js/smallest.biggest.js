@@ -1,5 +1,5 @@
 const find = (numbers) => {
-  return numbers
+  return [Math.min(...numbers), Math.max(...numbers)]
 }
 
 exports.find = find
