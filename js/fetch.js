@@ -4,7 +4,7 @@ const fetchData = async () => {
     return await fetch(SERVER_URL, {
         method: 'GET',
         mode: 'no-cors',
-        headers: {'Authorization': 'Basic am9zZGVtOjEyMzQ1Njc4'}
+        headers: {'Authorization': 'Basic ' + btoa("josdem:12345678")}
     })
     .then(response => {
         return response.json()
