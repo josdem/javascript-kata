@@ -13,4 +13,3 @@ const compress = (keyword) => {
 }
 
 exports.compress = compress
-
